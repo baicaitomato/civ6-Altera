@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<!-- This is the unit icon for the unit. -->
+		<Row Name="ICON_UNIT_HORSE_BOW"    Atlas="ICON_ATLAS_UNITS_FOW" Index="36"/>
+		<Row Name="ICON_BUILDING_GER"    Atlas="ICON_ATLAS_EXPANSION_1_BUILDINGS" Index="0"/>
+
+		<!-- This is the portrait of the unit. -->
+		<Row Name="ICON_UNIT_HORSE_BOW_PORTRAIT"        Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="34"/>
+	</IconDefinitions>
+</GameData>

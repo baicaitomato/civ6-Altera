@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Atila_Buildings -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/9/2020 4:59:13 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_GER" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_GER" 
+			 Name="LOC_BUILDING_GER_NAME" 
+			 Description="LOC_BUILDING_GER_DESCRIPTION" 
+			 PrereqTech="TECH_HORSEBACK_RIDING" 
+			 PrereqDistrict="DISTRICT_ENCAMPMENT" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="120" 
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Maintenance="1" 
+			 Housing="1" 
+			 CitizenSlots="1" 
+			 TraitType="TRAIT_CIVILIZATION_BUILDING_GER"/>
+	</Buildings>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_GER" ReplacesBuildingType="BUILDING_STABLE"/>
+	</BuildingReplaces>
+	
+	<Building_GreatPersonPoints>
+			<Row BuildingType="BUILDING_GER" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_GER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Building_YieldChanges>
+
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_GER" MutuallyExclusiveBuilding="BUILDING_BARRACKS"/>
+	</MutuallyExclusiveBuildings>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GER" ModifierId="GER_TRAINED_UNIT_XP_MODIFIER"/>
+		<Row BuildingType="BUILDING_GER" ModifierId="GER_LUEDUO"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GER_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GER_LUEDUO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GER_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GER_TRAINED_UNIT_XP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GER_LUEDUO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GER_LUEDUO</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

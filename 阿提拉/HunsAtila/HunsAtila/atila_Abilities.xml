@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- atila_Abilities -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/11/2020 5:11:04 AM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_GER_LUEDUO" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GER_TRAINED_UNIT_XP" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_GER_LUEDUO" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GER_LUEDUO" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GER_LUEDUO" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_GER_TRAINED_UNIT_XP" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GER_TRAINED_UNIT_XP" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GER_TRAINED_UNIT_XP" Tag="CLASS_RANGED_CAVALRY"/>
+	</TypeTags>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GER_LUEDUO" Name="LOC_ABILITY_GER_LUEDUO_NAME" Description="LOC_ABILITY_GER_LUEDUO_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GER_TRAINED_UNIT_XP" Name="LOC_ABILITY_GER_TRAINED_UNIT_XP_NAME" Description="LOC_ABILITY_GER_TRAINED_UNIT_XP_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GER_LUEDUO</UnitAbilityType>
+			<ModifierId>GER_LD_NO_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GER_TRAINED_UNIT_XP</UnitAbilityType>
+			<ModifierId>GER_TRAINED_XP</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>GER_LD_NO_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_PILLAGING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GER_TRAINED_XP</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GER_LD_NO_COST</ModifierId>
+			<Name>UseAdvancedPillaging</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>GER_TRAINED_XP</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

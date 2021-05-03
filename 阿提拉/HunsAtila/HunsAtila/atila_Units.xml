@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Almost all gameplay types should first be added to the types table. -->
+	<!-- This serves as a central way to reference any type -->
+	<Types>
+		<Row Type="UNIT_HORSE_BOW" Kind="KIND_UNIT" />
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HORSE_BOW" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HORSE_BOW" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HORSE_BOW" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HORSE_BOW" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HORSE_BOW" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_HORSE_BOW" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_HORSE_BOW" Tag="CLASS_MOBILE_RANGED"/>
+	</TypeTags>
+
+	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+	<Units>
+		<Row UnitType="UNIT_HORSE_BOW"
+			 Cost="80"
+			 Maintenance="2"
+			 BaseMoves="4"
+			 BaseSightRange="2"
+			 ZoneOfControl="true"
+			 Domain="DOMAIN_LAND"
+			 Combat="36"
+			 RangedCombat="40"
+			 Range="2"
+			 StrategicResource="RESOURCE_HORSES"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_RANGED"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 Name="LOC_UNIT_HORSE_BOW_NAME"
+			 Description="LOC_UNIT_HORSE_BOW_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"
+			 MandatoryObsoleteTech="TECH_MILITARY_SCIENCE"
+			 PrereqTech="TECH_HORSEBACK_RIDING"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_HORSE_BOW"/>
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_HORSE_BOW" ResourceCost="10"/>
+	</Units_XP2>
+	<UnitUpgrades>
+		<Row Unit="UNIT_HORSE_BOW" UpgradeUnit="UNIT_CAVALRY"/>
+	</UnitUpgrades>
+</GameData>

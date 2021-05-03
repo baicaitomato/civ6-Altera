@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AKISHIMAI_COLOR -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/9/2020 4:58:07 PM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ATILA_PRIMARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ATILA_SECONDARY</Type>
+			<Color>255,0,0,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ATILA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_ATILA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_ATILA_SECONDARY</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- atila_Config -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/9/2020 4:58:07 PM -->
+<GameData>
+	<Players>
+		<Row CivilizationType="CIVILIZATION_HUNS" 
+			 LeaderType="LEADER_ATILA" 
+			 CivilizationName="LOC_CIVILIZATION_HUNS_NAME" 
+			 CivilizationIcon="ICON_CIVILIZATION_HUNS" 
+			 LeaderName="LOC_LEADER_ATILA_NAME" 
+			 LeaderIcon="ICON_LEADER_ATILA" 
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_NAME" 
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_DESCRIPTION" 
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_HUNS" 
+			 LeaderAbilityName="LOC_TRAIT_LEADER_WENMINGHUIMIE_NAME" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_WENMINGHUIMIE_DESCRIPTION" 
+			 LeaderAbilityIcon="ICON_LEADER_ATILA"
+			 PortraitBackground="IMG_SELECTION_FOREGROUNDDD_Altera"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 CivilizationName="LOC_CIVILIZATION_HUNS_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_HUNS"
+			 LeaderName="LOC_LEADER_ATILA_NAME"
+			 LeaderIcon="ICON_LEADER_ATILA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_HUNS"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_WENMINGHUIMIE_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_WENMINGHUIMIE_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_ATILA"
+			 PortraitBackground="IMG_SELECTION_FOREGROUNDDD_Altera"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 CivilizationName="LOC_CIVILIZATION_HUNS_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_HUNS"
+			 LeaderName="LOC_LEADER_ATILA_NAME"
+			 LeaderIcon="ICON_LEADER_ATILA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_HUNS"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_WENMINGHUIMIE_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_WENMINGHUIMIE_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_ATILA"
+			 PortraitBackground="IMG_SELECTION_FOREGROUNDDD_Altera"/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_HUNS" 
+			 LeaderType="LEADER_ATILA" 
+			 Type="UNIT_HORSE_BOW" 
+			 Icon="ICON_UNIT_HORSE_BOW" 
+			 Name="LOC_UNIT_HORSE_BOW_NAME" 
+			 Description="LOC_UNIT_HORSE_BOW_DESCRIPTION" 
+			 SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" 
+			 LeaderType="LEADER_ATILA" 
+			 Type="BUILDING_GER" 
+			 Icon="ICON_BUILDING_GER" 
+			 Name="LOC_BUILDING_GER_NAME" 
+			 Description="LOC_BUILDING_GER_DESCRIPTION" 
+			 SortIndex="20"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 Type="UNIT_HORSE_BOW"
+			 Icon="ICON_UNIT_HORSE_BOW"
+			 Name="LOC_UNIT_HORSE_BOW_NAME"
+			 Description="LOC_UNIT_HORSE_BOW_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 Type="BUILDING_GER"
+			 Icon="ICON_BUILDING_GER"
+			 Name="LOC_BUILDING_GER_NAME"
+			 Description="LOC_BUILDING_GER_DESCRIPTION"
+			 SortIndex="20"/>		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 Type="UNIT_HORSE_BOW"
+			 Icon="ICON_UNIT_HORSE_BOW"
+			 Name="LOC_UNIT_HORSE_BOW_NAME"
+			 Description="LOC_UNIT_HORSE_BOW_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HUNS"
+			 LeaderType="LEADER_ATILA"
+			 Type="BUILDING_GER"
+			 Icon="ICON_BUILDING_GER"
+			 Name="LOC_BUILDING_GER_NAME"
+			 Description="LOC_BUILDING_GER_DESCRIPTION"
+			 SortIndex="20"/>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_256.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_80.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_64.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_55.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_50.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_45.dds"/>
+		<Row Name="ATLAS_LEADER_ATILA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATTILA_32.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_ATILA" Atlas="ATLAS_LEADER_ATILA" Index="0"/>
+	</IconDefinitions>
+</GameData>

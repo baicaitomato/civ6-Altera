@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- atila_Leaders -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/9/2020 4:58:38 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_ATILA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_WENMINGHUIMIE" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_ATILA" Name="LOC_LEADER_ATILA_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ATILA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ATILA_QUOTE" QuoteAudio="Play_LEADER_ATILA_QUOTES"/>
+	</LeaderQuotes>
+	
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_WENMINGHUIMIE" Name="LOC_TRAIT_LEADER_WENMINGHUIMIE_NAME" Description="LOC_TRAIT_LEADER_WENMINGHUIMIE_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ATILA" TraitType="TRAIT_LEADER_WENMINGHUIMIE"/>
+		<Row LeaderType="LEADER_ATILA" TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>
+		<Row LeaderType="LEADER_ATILA" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+	</LeaderTraits>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ATILA" AgendaType="AGENDA_DARWINIST"/>
+	</HistoricalAgendas>
+	
+	<ModifierStrings>
+		<Row ModifierId="Atila_CHENGSHI" Context="Preview" Text="LOC_Atila_CHENGSHI"/>
+	</ModifierStrings>
+	
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_NUKE_LOVER" LeaderType="LEADER_ATILA" PercentageChance="85"/>
+	</AgendaPreferredLeaders>
+	
+	<!--ai-->
+	<AiListTypes>
+		<Row ListType="Atila_TECHS"/>
+		<Row ListType="Atila_CavalryLoverList"/>
+		<Row ListType="Atila_CIVICS"/>
+		<Row ListType="Atila_Wonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="Atila_CavalryLoverList" LeaderType="TRAIT_LEADER_WENMINGHUIMIE" System="UnitPromotionClasses"/>
+		<Row ListType="CavalryLoverCitySettlement" LeaderType="TRAIT_LEADER_WENMINGHUIMIE" System="PlotEvaluations"/>
+		<Row ListType="Atila_CIVICS" LeaderType="TRAIT_LEADER_WENMINGHUIMIE" System="Civics"/>
+		<Row ListType="Atila_TECHS" LeaderType="TRAIT_LEADER_WENMINGHUIMIE" System="Technologies"/>
+		<Row ListType="Atila_Wonders" LeaderType="TRAIT_LEADER_WENMINGHUIMIE" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="Atila_CavalryLoverList" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="1"/>
+		<Row ListType="Atila_CavalryLoverList" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="1"/>
+		<Row ListType="Atila_CavalryLoverList" Item="PROMOTION_CLASS_RANGED" Value="1"/>
+		<Row ListType="Atila_CIVICS" Item="CIVIC_MILITARY_TRADITION" Favored="true"/>
+		<Row ListType="Atila_CIVICS" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="Atila_CIVICS" Item="CIVIC_CLASS_STRUGGLE" Favored="true"/>
+		<Row ListType="Atila_TECHS" Item="TECH_ANIMAL_HUSBANDRY" Favored="true"/>
+		<Row ListType="Atila_TECHS" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="Atila_TECHS" Item="TECH_BRONZE_WORKING" Favored="true"/>
+	</AiFavoredItems>
+	<!--ai-->
+</GameData>

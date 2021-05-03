@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- atila_Civilization -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/9/2020 4:57:34 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_HUNS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HORSE_BOW" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_GER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_WAR_GOD_SWORD" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_HUNS" 
+			 Name="LOC_CIVILIZATION_HUNS_NAME" 
+			 Description="LOC_CIVILIZATION_HUNS_DESCRIPTION" 
+			 Adjective="LOC_CIVILIZATION_HUNS_ADJECTIVE" 
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
+			 RandomCityNameDepth="10" 
+			 Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_HUNS" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_HUNS_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_HUNS_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_HUNS_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_HUNS_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_HUNS" 
+			 LeaderType="LEADER_ATILA" 
+			 CapitalName="LOC_CITY_NAME_CHANYUTING"/>
+	</CivilizationLeaders>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_CHANYUTING"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_WEIERPA02"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_ZHOUZHILEI"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_TONGWANCHENG"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_LONGCHENG"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_YOUXING"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_TOUMANCHENG"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_LEIZHIXING"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_VOIDCELL"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CityName="LOC_CITY_NAME_MOONCELL"/>
+	</CityNames>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" CitizenName="LOC_CITIZEN_HUNS_FEMALE_4" Female="true"/>
+	</CivilizationCitizenNames>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" ResourceType="RESOURCE_SHEEP" Tier="3"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_HUNS" TerrainType="TERRAIN_GRASS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TerrainType="TERRAIN_PLAINS" Tier="5"/>
+	</StartBiasTerrains>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HORSE_BOW" Name="匈奴特色单位:弓骑手"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GER" Name="匈奴特色建筑:帐篷"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WAR_GOD_SWORD" Name="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_NAME" Description="LOC_TRAIT_CIVILIZATION_WAR_GOD_SWORD_DESCRIPTION" />
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WAR_GOD_SWORD</TraitType>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WAR_GOD_SWORD</TraitType>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION_HILL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_CIVILIZATION_UNIT_HORSE_BOW"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_CIVILIZATION_BUILDING_GER"/>
+		<Row CivilizationType="CIVILIZATION_HUNS" TraitType="TRAIT_CIVILIZATION_WAR_GOD_SWORD"/>
+	</CivilizationTraits>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION_HILL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS_HILL</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION_HILL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>Atila_TRAIT_INCREASED_PAS_PRODUCTION_HILL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS_HILL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS</RequirementSetId>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>Atila_REQUIREMENTS_PLOT_HAS_PAS_HILL</RequirementSetId>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS_HILL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS_HILL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<Row>
+			<RequirementId>Atila_REQUIRES_PLOT_HAS_GRASS_HILL</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+	</RequirementArguments>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ATILA" ForegroundImage="IMG_LOADING_FOREGROUNDDD_Altera.dds"
+			 BackgroundImage="IMG_LOADING_BACKGROUNDDD_Altera.dds"
+			 PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_ATILA_TEXT"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ATILA" BackgroundImage="IMG_DIPLOMACY_BACKGROUNDDDDDD.dds"/>
+	</DiplomacyInfo>
+</GameData>
